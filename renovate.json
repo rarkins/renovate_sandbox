@@ -1,5 +1,17 @@
 {
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    ":automergerAll"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": ["^minio"],
+      "versioning": "loose"
+    },
+    {
+      "paths": ["docker-compose.yml"],
+      "packagePatterns": ["^rknt"],
+      "versioning": "regex:^master-(?<hash>\\w{40})-(?<minor>\\d{8})\\.(?<patch>\\d{4})$"
+    }
+]
 }
