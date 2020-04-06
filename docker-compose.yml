@@ -2,4 +2,4 @@ version: '3'
 
 services:
   dummy:
-    image: rknt/dummy:latest
+    image: rknt/dummy:master-24d687b230c9e97bf6c8a586596b24f8db5aeef8-20200406.0943
