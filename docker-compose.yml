@@ -2,7 +2,6 @@ version: '3'
 
 services:
   dummy:
-    image: rknt/dummy:master-f525fde21b871dc5bb2595c5c27d8d29cf0bd54f
-    
+    image: rknt/dummy:master-9b8005d80e7fca96570752aac3a788d162346b7a-20200406.1011
   s3:
     image: minio/minio:RELEASE.2020-04-04T05-39-31Z
