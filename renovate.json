@@ -16,7 +16,8 @@
     {
       "paths": ["docker-compose.yml"],
       "packagePatterns": ["^libero"],
-      "versioning": "docker"
+      "versioning": "docker",
+      "enabled": false
     },
     {
       "paths": ["docker-compose.master.yml"],
