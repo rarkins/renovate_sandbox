@@ -20,6 +20,6 @@
     {
       "paths": ["+(docker-compose.yml)"],
       "versioning": "semver"
-    },
+    }
   ]
 }
