@@ -8,4 +8,4 @@ services:
   nginx:
     image: nginx:stable-alpine
   libero:
-    image: liberoadmin/audit:0.0.2
+    image: liberoadmin/audit:0.0.1
