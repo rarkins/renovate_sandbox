@@ -2,4 +2,4 @@ version: '3'
 
 services:
   libero:
-    image: liberoadmin/audit:master-48b4c609-20200416.1445
+    image: liberoadmin/audit:master-37d7544b-20200414.1005
